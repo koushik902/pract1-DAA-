@@ -49,3 +49,21 @@ Heap Sort is an efficient sorting technique that provides a consistent O(n log n
 The programs demonstrate how heaps can be effectively used for sorting and how Python's heapq module simplifies heap operations. Compared with simpler sorting algorithms such as Bubble Sort and Selection Sort, Heap Sort is generally more suitable for larger datasets because its performance remains O(n log n) even in the worst case.
 
 # pract4-DAA-
+Summary
+In the Iterative method, a for loop multiplies all integers from 1 to n to calculate the factorial. In the Recursive method, the function repeatedly calls itself with n-1 until it reaches the base case of 0 or 1.
+
+For example, when the input is 5, both methods produce the result 120.
+
+The time complexity of both methods is O(n) because they perform approximately n multiplication operations.
+
+Iterative Time Complexity: O(n)
+Recursive Time Complexity: O(n)
+Iterative Space Complexity: O(1)
+Recursive Space Complexity: O(n), due to the function call stack
+
+The program also compares the execution times of the two approaches.
+Conclusion
+
+Both iterative and recursive methods successfully calculate the factorial of a number and have O(n) time complexity. The iterative approach generally uses less memory because it does not require recursive function calls, giving it an advantage for very large values of n.
+
+The recursive approach is simpler and demonstrates the concept of recursion, but it requires additional stack memory and may encounter Python's recursion-depth limitation for sufficiently large inputs. Therefore, the iterative method is generally more memory-efficient, while the recursive method is useful for understanding and demonstrating recursive problem-solving.
