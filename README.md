@@ -31,3 +31,21 @@ Binary Search is an efficient searching algorithm, especially for large sorted d
 The program demonstrates that Binary Search has a worst-case time complexity of O(log n) and uses constant extra space, making it highly efficient. However, the list must be sorted before searching. Therefore, Binary Search is most beneficial when the data is already sorted or when the same sorted data will be searched multiple times.
 
 # pract3-DAA-
+Summary
+In the Max-Heap Sort implementation, the elements are converted to negative values because Python's heapq provides a Min Heap by default. The elements are then repeatedly removed from the heap and converted back to positive values, producing the array in descending order. For example, [1, 5, 3] produces [5, 3, 1].
+
+In the Min-Heap Sort implementation, the input list is directly converted into a Min Heap using heapq.heapify(). The smallest element is repeatedly removed from the heap, producing the array in ascending order. For example, [18, 7, 45] produces [7, 18, 45].
+
+Both implementations have:
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+
+The programs also calculate the actual execution time for the sorting operation.
+Conclusion
+Heap Sort is an efficient sorting technique that provides a consistent O(n log n) time complexity in the best, average, and worst cases. The Min Heap can be used to sort elements in ascending order, while the Max Heap can be used to sort elements in descending order.
+
+The programs demonstrate how heaps can be effectively used for sorting and how Python's heapq module simplifies heap operations. Compared with simpler sorting algorithms such as Bubble Sort and Selection Sort, Heap Sort is generally more suitable for larger datasets because its performance remains O(n log n) even in the worst case.
+
+# pract4-DAA-
