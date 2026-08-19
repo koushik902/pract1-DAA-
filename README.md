@@ -11,3 +11,4 @@ Conclusion:
 The comparison shows that Merge Sort and Quick Sort are generally more efficient for large datasets than Bubble Sort, Selection Sort, and Insertion Sort. The first three algorithms have quadratic O(n²) average or worst-case performance, making them less suitable for large inputs. Merge Sort provides a consistent O(n log n) performance, while Quick Sort usually performs very efficiently in practice but can degrade to O(n²) in its worst case.
 
 Therefore, the choice of sorting algorithm depends on the size and nature of the data. For small or nearly sorted datasets, Insertion Sort can be effective, whereas for larger datasets, Merge Sort or Quick Sort is generally preferable. The execution-time measurements also demonstrate how theoretical time complexity translates into practical performance.
+# pract2-DAA-
