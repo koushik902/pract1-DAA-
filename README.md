@@ -66,19 +66,9 @@ Conclusion
 
 Both iterative and recursive methods successfully calculate the factorial of a number and have O(n) time complexity. The iterative approach generally uses less memory because it does not require recursive function calls, giving it an advantage for very large values of n.
 
-The recursive approach is simpler and  the concept of recursion, but it requires additional stack memory and may encounter Python's recursion-depth limitation for sufficiently large inputs. Therefore, the iterative method is generally more memory-efficient, while the recursive method is useful for understanding and demonstrating recursive problem-solving.
-summary:
-
-
-The Making Change Problem is solved using Dynamic Programming by dividing the problem into smaller subproblems. An array dp stores the minimum number of coins required to make each amount from 0 to the given amount. The solution for a larger amount is obtained using previously calculated smaller amounts. This avoids repeated calculations and makes the algorithm more efficient.
-
-CONCLUSION:
-
-The Dynamic Programming approach provides an efficient solution to the Making Change Problem. It finds the minimum number of coins required to form the target amount and works well when there are many possible combinations of coins. The time complexity is O(n × A), where n is the number of coin denominations and A is the target amount. The space complexity is O(A).
-
+The recursive approach is simpler and  the concept of recursion, but it requires additional stack memory and may encounter Python's recursion-depth limitation for sufficiently large inputs. Therefore, the iterative method is generally more memory-efficient, while the recursive method is useful for understanding and demonstrating recursive problem-solving.]
 
 #practical-DAA-7
-summary
 summary:
 
 The Making Change Problem is solved using Dynamic Programming by dividing the problem into smaller subproblems. An array dp stores the minimum number of coins required to make each amount from 0 to the given amount. The solution for a larger amount is obtained using previously calculated smaller amounts. This avoids repeated calculations and makes the algorithm more efficient.
