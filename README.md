@@ -68,7 +68,7 @@ Both iterative and recursive methods successfully calculate the factorial of a n
 
 The recursive approach is simpler and  the concept of recursion, but it requires additional stack memory and may encounter Python's recursion-depth limitation for sufficiently large inputs. Therefore, the iterative method is generally more memory-efficient, while the recursive method is useful for understanding and demonstrating recursive problem-solving.]
 
-#practical-DAA-7
+# practical-DAA-7
 summary:
 
 The Making Change Problem is solved using Dynamic Programming by dividing the problem into smaller subproblems. An array dp stores the minimum number of coins required to make each amount from 0 to the given amount. The solution for a larger amount is obtained using previously calculated smaller amounts. This avoids repeated calculations and makes the algorithm more efficient.
@@ -77,3 +77,11 @@ CONCLUSION:
 
 The Dynamic Programming approach provides an efficient solution to the Making Change Problem. It finds the minimum number of coins required to form the target amount and works well when there are many possible combinations of coins. The time complexity is O(n × A), where n is the number of coin denominations and A is the target amount. The space complexity is O(A).
 
+# PRACTICAL-5-DAA
+SUMAAARY
+
+The 0/1 Knapsack Problem is solved efficiently using Dynamic Programming by dividing the problem into smaller subproblems. A two-dimensional DP table is used to store the maximum value possible for different numbers of items and capacities. For every item, the algorithm decides whether including or excluding it gives a better result.
+
+# CONCLUSSION
+The implementation of the 0/1 Knapsack Problem using Dynamic Programming successfully finds the maximum possible value without exceeding the knapsack's capacity. Dynamic Programming avoids repeated calculations and provides an efficient solution compared with a simple recursive approach. 
+This method is useful in resource allocation, budget planning, cargo loading, and other optimization problems.
