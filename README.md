@@ -85,3 +85,15 @@ The 0/1 Knapsack Problem is solved efficiently using Dynamic Programming by divi
 # CONCLUSSION
 The implementation of the 0/1 Knapsack Problem using Dynamic Programming successfully finds the maximum possible value without exceeding the knapsack's capacity. Dynamic Programming avoids repeated calculations and provides an efficient solution compared with a simple recursive approach. 
 This method is useful in resource allocation, budget planning, cargo loading, and other optimization problems.
+# Practical_6
+# Summary
+Matrix Chain Multiplication is an optimization problem where the objective is to 
+determine the best order for multiplying a sequence of matrices.
+Dynamic Programming is used to store the minimum multiplication cost of smaller,
+matrix chains and reuse those results to solve larger chains efficiently.
+
+# Conclusion
+The Matrix Chain Multiplication problem using Dynamic Programming successfully. 
+finds the minimum number of scalar multiplications required to multiply a sequence of matrices.
+By solving smaller subproblems and storing their results in a DP table, 
+The algorithm avoids repeated calculations and provides an efficient solution with O(n³) time complexity
