@@ -108,4 +108,13 @@ Conclusion
 
 DFS and BFS are efficient graph-searching techniques. DFS is useful for deep exploration and path-related problems, while BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph. Both algorithms have a time complexity of O(V + E).
 
+pract-DAA-9
+Summary
+
+Prim’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, connected, undirected graph. It starts with one vertex and repeatedly selects the minimum-weight edge that connects a selected vertex to an unselected vertex.
+
+Conclusion
+
+Prim’s algorithm efficiently constructs a Minimum Spanning Tree by adding the minimum-cost edge at each step without creating unnecessary connections. For the given graph, the MST has a minimum cost of 13. The implementation using an adjacency matrix has a time complexity of O(V²).
+
 
