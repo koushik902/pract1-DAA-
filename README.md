@@ -97,6 +97,7 @@ The Matrix Chain Multiplication problem using Dynamic Programming successfully.
 finds the minimum number of scalar multiplications required to multiply a sequence of matrices.
 By solving smaller subproblems and storing their results in a DP table, 
 The algorithm avoids repeated calculations and provides an efficient solution with O(n³) time complexity
+
  #pract-DAA-8
 Summary
 
