@@ -119,3 +119,15 @@ Conclusion
 Prim’s algorithm efficiently constructs a Minimum Spanning Tree by adding the minimum-cost edge at each step without creating unnecessary connections. For the given graph, the MST has a minimum cost of 13. The implementation using an adjacency matrix has a time complexity of O(V²).
 
 
+pract-DAA-10
+
+Summary
+
+Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree. It first sorts all edges according to their weights and then selects the smallest edges one by one while avoiding cycles. The Union-Find technique is used to detect cycles.
+
+Conclusion
+
+Kruskal’s algorithm provides an efficient way to construct a Minimum Spanning Tree by selecting the lowest-weight edges without forming cycles. For the given graph, the MST has a minimum cost of 13. Its time complexity is O(E log E) because the edges must be sorted.
+
+
+
