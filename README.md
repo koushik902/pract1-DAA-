@@ -97,3 +97,13 @@ The Matrix Chain Multiplication problem using Dynamic Programming successfully.
 finds the minimum number of scalar multiplications required to multiply a sequence of matrices.
 By solving smaller subproblems and storing their results in a DP table, 
 The algorithm avoids repeated calculations and provides an efficient solution with O(n³) time complexity
+pract-DAA-8
+Summary
+
+The program implements graph traversal using Depth First Search (DFS) and Breadth First Search (BFS). DFS explores a graph deeply before backtracking, while BFS explores the graph level by level. DFS uses recursion or a stack, whereas BFS uses a queue.
+
+Conclusion
+
+DFS and BFS are efficient graph-searching techniques. DFS is useful for deep exploration and path-related problems, while BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph. Both algorithms have a time complexity of O(V + E).
+
+
