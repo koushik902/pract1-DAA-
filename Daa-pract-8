@@ -1,0 +1,47 @@
+# Graph representation using adjacency list
+graph = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': [],
+    'E': ['F'],
+    'F': []
+}
+
+
+# Depth First Search (DFS)
+def dfs(graph, start, visited=None):
+    if visited is None:
+        visited = set()
+
+    visited.add(start)
+    print(start, end=" ")
+
+    for neighbour in graph[start]:
+        if neighbour not in visited:
+            dfs(graph, neighbour, visited)
+
+
+# Breadth First Search (BFS)
+def bfs(graph, start):
+    visited = set()
+    queue = [start]
+
+    visited.add(start)
+
+    while queue:
+        vertex = queue.pop(0)
+        print(vertex, end=" ")
+
+        for neighbour in graph[vertex]:
+            if neighbour not in visited:
+                visited.add(neighbour)
+                queue.append(neighbour)
+
+
+# Function calls
+print("DFS Traversal:")
+dfs(graph, 'A')
+
+print("\nBFS Traversal:")
+bfs(graph, 'A')
